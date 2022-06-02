@@ -43,7 +43,7 @@ detta laddas i ImageViewn.
 _Figur 1.3 Glide funktion för knapp_
 
 För att få fram text med länk till copyright sida så har ett HTML anchor element används.
-Som syns i figur 1.4 nedan har string.xml uppdaterats med just detta HTML värde som ledeer till
+Som syns i figur 1.4 nedan har string.xml uppdaterats med just detta HTML värde som leder till
 en hemsida. Sedan behöver länken aktiveras och detta görs med setMovementMethod som syns i figur 1.5.
 
 ```
@@ -62,4 +62,5 @@ _Figur 1.5 Java för att aktivera länk_
 
 ## Video exempel
 
-<img src="show.gif" width="50%">
+<img src="show.gif" width="50%" alt="Gif som visar appen">
+_Figur 1.6 Video exempel för applikationen_
