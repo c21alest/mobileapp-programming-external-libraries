@@ -63,4 +63,5 @@ _Figur 1.5 Java för att aktivera länk_
 ## Video exempel
 
 <img src="show.gif" width="50%" alt="Gif som visar appen">
+
 _Figur 1.6 Video exempel för applikationen_
