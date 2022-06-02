@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExternalLibraries</string>
+    <string name="happyCop"><a href="https://giphy.com/gifs/despicable-me-minions-banana-HuGCwDXj4nQnS?utm_source=media-link&amp;utm_medium=landing&amp;utm_campaign=Media%20Links&amp;utm_term=">Copyright: Despicable Me Banana GIF</a></string>
+    <string name="funnyCop"><a href="https://giphy.com/gifs/moodman-JQFZzvTP7XmPBmcSdH?utm_source=media-link&amp;utm_medium=landing&amp;utm_campaign=Media%20Links&amp;utm_term=">Copyright: Hamster Rotation GIF By MOODMAN</a></string>
 </resources>

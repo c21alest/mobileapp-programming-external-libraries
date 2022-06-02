@@ -3,10 +3,12 @@ package com.example.externallibraries;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button funny;
     private Button happy;
+    private TextView funnyCop;
+    private TextView happyCop;
     private ImageView imageView;
     private String happyGif;
     private String funnyGif;
@@ -26,7 +30,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         funny = findViewById(R.id.button_funny);
+        funnyCop = findViewById(R.id.cop_funny);
         happy = findViewById(R.id.button_happy);
+        happyCop = findViewById(R.id.cop_happy);
+
+        funnyCop.setMovementMethod(LinkMovementMethod.getInstance());
+        happyCop.setMovementMethod(LinkMovementMethod.getInstance());
 
         imageView = findViewById(R.id.imageView);
 

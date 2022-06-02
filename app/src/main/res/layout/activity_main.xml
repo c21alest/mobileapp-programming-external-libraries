@@ -31,4 +31,32 @@
         app:layout_constraintTop_toBottomOf="@id/imageView"
         app:layout_constraintRight_toRightOf="@id/imageView"
         android:text="Rolig" />
+
+    <TextView
+        android:id="@+id/cop_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happyCop"
+        app:layout_constraintTop_toBottomOf="@id/button_happy"
+        app:layout_constraintLeft_toLeftOf="@id/button_happy"/>
+
+    <TextView
+        android:id="@+id/cop_funny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/funnyCop"
+        app:layout_constraintTop_toBottomOf="@id/cop_happy"
+        app:layout_constraintLeft_toLeftOf="@id/cop_happy"/>
+
+    <TextView
+        android:id="@+id/title"
+        app:layout_constraintBottom_toTopOf="@id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klicka på knapp för att visa Gif" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
