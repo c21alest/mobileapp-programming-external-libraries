@@ -59,3 +59,7 @@ _Figur 1.4 Sträng värde med anchor element_
 
 ```
 _Figur 1.5 Java för att aktivera länk_
+
+## Video exempel
+
+<img src="show.gif" width="50%">
