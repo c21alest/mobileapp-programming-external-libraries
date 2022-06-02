@@ -2,7 +2,7 @@
 # Rapport External Libraries
 
 
-## Val av bibliotek
+## Glide bild bibliotek
 I projektet kommer bild biblioteket picasso användas. Men varav att bild bibliotek
 är mycket använda i Android Studio finns det en mängd olika. Däför testas ett annat stort
 bildbibliotek här, nämligen Glide. En stor visuell skillnad mellan glide
